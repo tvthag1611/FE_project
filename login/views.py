@@ -4,7 +4,6 @@ from django.shortcuts import render
 def index_view(request):
     return render(request, "login/index.html")
 
-
 def index_view_register(request):
 
     return render(request, "register/register.html")
